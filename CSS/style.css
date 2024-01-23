@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #060606;
+    height: 10vh;
+}
+
+.navbar .imgLogo {
+    max-width: 100px;
+    background-image: none;
+    background-color: #060606;
+    margin-bottom: 15px;
+}
+
+.navbar .container {
+    display: flex;
+}
+
+.container-fluid {
+    background-color: #060606;
+}
+
+
+.container-fluid .collapse .nav-item .nav-link {
+    color: #cb333b;
+    font-family: 'obviously', sans-serif;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #060606 !important;
+}
+
+
+.container-fluid .collapse .li {
+    margin: 15px;
+    border: 15px;
+    padding: 15px;
+    display: inline-block;
+    font-family: 'obviously', sans-serif;
+}
+
+.container-fluid .collapse .nav-item .nav-link:hover {
+    color: #d9474f;
+    transform: scale(1.2);
+}
+
+/* HEADER FIN */
+
+/* MAIN */
+
+main {
+    display: flex;
+    background-color: #060606;
+}
+
+.mainIndex-2 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.mainIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(https://media.gq-magazine.co.uk/photos/5e8f06bacc49500008e692ef/16:9/w_2560%2Cc_limit/Strokes20200409_0003.jpg);
+}
+
+/* DISCOGRAFIA */
+
+.mainHistoria h3 {
+    color: #b2a6a6;
+    font-family: 'obviously', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.DivIsThisItImageSpotify,
+.DivRoomOnFireImageSpotify,
+.DivFirstImpressionsOfEarthImageSpotify,
+.DivAnglesImageSpotify,
+.DivComedownMachineImagespotify,
+.DivFuturePresentPastEPImageSpotify,
+.DivTheNewAbnormalImageSpotify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* DISCOGRAFIA FIN */
+
+
+/* MIEMBROS */
+
+.mainMiembros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.miembrosImage {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+
+/* MIEMBROS FIN */
+
+/* GALERIA */
+
+.mainGaleria {
+    display: flex;
+    flex-direction: column
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-fluid:hover {
+    transform: scale(1.15);
+}
+
+/* GALERIA FIN */
+
+/* CONTACTO */
+
+.mainContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.mainContacto {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.mainContacto .row {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+
+.row .btn-primary,
+.form-group {
+    margin-top: 10px;
+}
+
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-left h2 {
+    color: #cb333b;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 3rem !important;
+}
+
+.mt-5 button {
+    background-color: #cb333b;
+}
+
+.mt-5 button:hover {
+    background-color: #d9484f;
+}
+
+/* CONTACTO FIN */
+
+/* MAIN FIN */
+
+/* FOOTER */
+
+.footer {
+    background-color: #cb333b;
+    height: 20vh;
+}
+
+.footer .container .text-center .iconImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* FOOTER FIN */
+
+
+@media (min-width: 992px) {}
